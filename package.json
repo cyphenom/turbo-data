@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "name": "turbo-data",
+  "version": "Beta",
+  "description": "Json server than contains video data being displayed onto the Turbo Care repository.",
+  "main": "src/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "server": "json-server --watch data.json --port 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyphenom/turbo-data.git"
+  },
+  "author": "Danny Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyphenom/turbo-data/issues"
+  },
+  "homepage": "https://github.com/cyphenom/turbo-data#readme"
+}
